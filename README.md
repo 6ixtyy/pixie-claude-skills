@@ -48,6 +48,54 @@ claude
 | `firefly-debug` | "error", "debug", "not working" | Diagnose build, flash, and runtime issues |
 | `firefly-hardware` | "pins", "GPIO", "specs", "hardware" | Hardware specs and pin mapping |
 
+## Cool Things to Try
+
+Open Claude Code in this project and paste any of these prompts. Claude handles the rest — creates the app, registers it, builds, and flashes.
+
+### Games
+
+> **"Create a snake game. Button 1 = left, Button 2 = up, Button 3 = down, Button 4 = right. Draw the snake with green rectangles and food with a red square. Show the score at the top."**
+
+> **"Build a Pong game. Buttons 1 and 2 control the left paddle, buttons 3 and 4 control the right paddle. Ball bounces off walls and paddles. Show the score centered at the top."**
+
+> **"Make a tic-tac-toe game for two players. Use buttons 1-3 to pick a column and button 4 to confirm. Highlight the current position. Show X and O on the grid."**
+
+> **"Create a brick breaker game. The paddle moves left and right with buttons 1 and 4. Ball bounces off bricks drawn as small colored rectangles across the top."**
+
+### Party & Social
+
+> **"Build a truth or dare app. Show 'Truth' or 'Dare' on screen. Press any button to randomly pick a new prompt from a built-in list. Alternate between truth and dare questions. Make the background pulse while waiting."**
+
+> **"Create a magic 8-ball app. Display 'Ask a question...' then when any button is pressed, show a random answer like 'Yes definitely', 'Ask again later', 'Don't count on it' with a cool animation."**
+
+> **"Make a dice roller. Show a big dice face on screen using dots drawn with rectangles. Press any button to roll — animate the number cycling for a second before landing on the result."**
+
+> **"Build a 'Never Have I Ever' app. Show prompts one at a time. Button 1 = next prompt, Button 4 = shuffle all. Keep a running counter of how many rounds have been played."**
+
+### Utility
+
+> **"Create a stopwatch app. Button 1 starts and stops the timer. Button 4 resets it. Display minutes, seconds, and milliseconds in large centered text. Show lap times when Button 2 is pressed."**
+
+> **"Build a reaction time tester. Show 'Wait...' with a red background, then after a random 1-5 second delay, flash green and say 'GO!'. Measure how fast the user presses any button. Show their time in milliseconds."**
+
+> **"Make a countdown timer. Start at 60 seconds. Button 1 adds 10 seconds, Button 4 subtracts 10 seconds, Button 2 starts/pauses, Button 3 resets. Flash the screen red when time is up."**
+
+> **"Create a Pomodoro timer. 25 minutes of focus, 5 minutes of break. Show the remaining time big and centered. Pulse green during focus mode, blue during break. Button 1 to start/pause, Button 4 to skip."**
+
+### Visual & Creative
+
+> **"Build a digital pet app like a Tamagotchi. Show a simple face that changes expression. It gets hungry over time (show a hunger bar). Button 1 feeds it, Button 2 plays with it, Button 3 puts it to sleep. If neglected, it gets sad."**
+
+> **"Create a pixel art canvas. Use a 16x16 grid on the 240x240 screen. Buttons 1 and 2 move the cursor left/right, Button 3 moves down, Button 4 toggles the pixel. Cycle through colors on double-press."**
+
+> **"Make a rainbow wave animation that flows across the screen. No buttons needed — just a mesmerizing color cycling effect. Use the full display with smooth gradients."**
+
+### BLE-Powered
+
+> **"Set up the BLE demo app and create a script that sends the current time to the Pixie every 10 seconds using the BLE bridge."**
+
+> **"Flash the BLE demo and send a message that says 'gm' with a rainbow mode background."**
+
 ## Project Layout
 
 ```
