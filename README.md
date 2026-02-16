@@ -82,6 +82,20 @@ Open Claude Code in this project and paste any of these prompts. Claude handles 
 
 > **"Create a Pomodoro timer. 25 minutes of focus, 5 minutes of break. Show the remaining time big and centered. Pulse green during focus mode, blue during break. Button 1 to start/pause, Button 4 to skip."**
 
+### Crypto
+
+> **"Create a crypto portfolio tracker app. Hardcode 3 tokens (BTC, ETH, SOL) with my holdings. Button 1 cycles through tokens, showing the symbol big and centered. Button 4 toggles between showing the amount held vs a flashing 'HODL' animation. Use a dark purple background with green text."**
+
+> **"Build a live crypto price ticker using BLE. Flash the ble_demo app, then write a Python script that fetches the current BTC price from a public API every 30 seconds and sends it to the Pixie via the BLE bridge. If the price is up from the last check, set the background color to green. If it's down, set it to red."**
+
+> **"Make a DEX dashboard app. Use the BLE bridge to send token data to the Pixie. Write a script that pulls the top trending token from DexScreener and sends it using the /dex top command every 60 seconds. Show the ticker and market cap on screen."**
+
+> **"Create a gas fee monitor. Write a Python script that fetches current Ethereum gas prices from a public API and sends the gwei amount to the Pixie over BLE every 20 seconds. Display 'LOW' in green when under 20 gwei, 'MED' in yellow when 20-50, 'HIGH' in red when over 50."**
+
+> **"Build a whale alert display. Write a Python script that monitors a public whale transaction API and sends the latest large transfer to the Pixie via BLE whenever a transaction over $1M is detected. Show the token symbol and formatted amount on screen."**
+
+> **"Create a multi-coin rotating ticker. Write a script that cycles through BTC, ETH, SOL, and USDC — fetching each price and sending it to the Pixie via the /dex top BLE command with a 10-second rotation. Each coin gets a different background color."**
+
 ### Visual & Creative
 
 > **"Build a digital pet app like a Tamagotchi. Show a simple face that changes expression. It gets hungry over time (show a hunger bar). Button 1 feeds it, Button 2 plays with it, Button 3 puts it to sleep. If neglected, it gets sad."**
